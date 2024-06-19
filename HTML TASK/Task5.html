@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML-Task5</title>
+</head>
+<body>
+  <h2 style="color: blue;"><center>Registration form</center></h2>
+  <form action="">
+    <table border="1" 
+    style="margin: 0 auto;">
+      <tr>
+        <th>First Name</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>Last Name</th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td><input type="email"></td>
+      </tr>
+      <tr>
+        <th>Password</th>
+        <td><input type="password"></td>
+      </tr>
+      <tr>
+        <th>Re-enter Password</th>
+        <td><input type="password"></td>
+      </tr>
+      <tr>
+        <th>Gender:</th>
+        <td>
+          <input type="radio" name="gender" value="male" required> Male
+          <hr><input type="radio" name="gender" value="female" required> Female</td></hr>
+        </td>
+      </tr>
+      <tr>
+        <th>Age:</th>
+        <td><input type="number"></td>
+      </tr>
+      <tr>
+        <th>Phone Number</th>
+        <td><input type="tel"></td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td><textarea name="address" rows="4" cols="30" required></textarea></td>
+      </tr>
+      <tr>
+        <th>State</th>
+        <td><input type="text" name="state" required></td>
+      </tr>
+      <tr>
+        <th>Country</th>
+        <td>
+          <select name="country" required>
+            <option value="">Choose your country</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th>Languages known</th>
+        <td>
+          <input type="checkbox" name="languages" value="english"> English
+          <input type="checkbox" name="languages" value="kannada"> Kannada
+          <input type="checkbox" name="languages" value="hindi"> Hindi
+          <input type="checkbox" name="languages" value="telugu"> Telugu
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" name="declaration" required> Hereby I declare all the given details are true
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: right">
+          <p>Log in to <a href="https://ethnus.com"> Ethnus </a> website</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Register">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
